@@ -44,3 +44,8 @@ lot3_df <- subset(suspension_df, Manufacturing_Lot == 'Lot3')
 t.test(lot1_df$PSI, mu=1500, alt='less')
 t.test(lot2_df$PSI, mu=1500, alt='less')
 t.test(lot3_df$PSI, mu=1500, alt='less')
+
+# finalizing it all
+t.test(subset(suspension_df, Manufacturing_Lot=="Lot1")$PSI, mu=1500)
+t.test(subset(suspension_df, Manufacturing_Lot=="Lot2")$PSI, mu=1500)
+t.test(subset(suspension_df, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
