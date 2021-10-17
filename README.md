@@ -32,11 +32,23 @@ Our linear model returned an R-squared value of 0.7119. This tells us that just 
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+After analyses were performed, our data yielded a variance of 62.29 PSI for the coils. This range is well within the 100PSI range that is required of MechaCar! As well, looking at Lot 1 and Lot 2 
+
+
+
+
+
+
+When looking at the entire population of the production lot, the variance of the coils is 62.29 PSI, which is well within the 100 PSI variance requirement.
+
+Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level.
+
 
 ## T-Tests on Suspension Coils
 
-<img width="379" alt="Screen Shot 2021-10-17 at 5 30 55 PM" src="https://user-images.githubusercontent.com/86274124/137646761-58acd3a4-349d-42d6-979d-9eeace34201f.png">
+<img width="521" alt="Screen Shot 2021-10-17 at 6 29 54 PM" src="https://user-images.githubusercontent.com/86274124/137647227-e33e59ff-596b-4664-9213-00236f429fe1.png">
 
-<img width="383" alt="Screen Shot 2021-10-17 at 5 31 08 PM" src="https://user-images.githubusercontent.com/86274124/137646762-4cac2094-24b8-443c-9ce1-dfb3504863be.png">
+<img width="519" alt="Screen Shot 2021-10-17 at 6 30 07 PM" src="https://user-images.githubusercontent.com/86274124/137647231-2d182ba2-be4b-43a3-8275-5003c1896a19.png">
 
-<img width="380" alt="Screen Shot 2021-10-17 at 5 31 21 PM" src="https://user-images.githubusercontent.com/86274124/137646765-561d0cce-3741-4b4b-ba1c-bad7a876452a.png">
+<img width="521" alt="Screen Shot 2021-10-17 at 6 30 22 PM" src="https://user-images.githubusercontent.com/86274124/137647234-048e4af3-6f68-440f-b165-24b42b593ac3.png">
+
