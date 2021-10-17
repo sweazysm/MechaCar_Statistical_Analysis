@@ -18,5 +18,25 @@ Aside from mpg, which we are comparing, we see a significance code of 0 for "gro
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
+The p-value generated is much smaller than the assumed significance level, which is 0.05%. What this tells us is that we can reject our null hypothesis and we can infer than the slope of our model is not zero!
 
-    Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+Our linear model returned an R-squared value of 0.7119. This tells us that just over 70% of model predictions in regards to mpg can be determined by the generated model. Depending on one's own measures, it can be assumed that with a 70% success rate we can use this model to effectively predict the mpg of the MechaCar prototypes!
+
+## Summary Statistics on Suspension Coils
+
+<img width="507" alt="Screen Shot 2021-10-17 at 4 22 17 PM" src="https://user-images.githubusercontent.com/86274124/137646706-ae3c8500-1e61-4ea6-b0f4-7018887fa41f.png">
+
+<img width="350" alt="Screen Shot 2021-10-17 at 4 22 08 PM" src="https://user-images.githubusercontent.com/86274124/137646709-cbb9c0da-34d0-4630-bfae-f0b39cb812ff.png">
+
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+## T-Tests on Suspension Coils
+
+<img width="379" alt="Screen Shot 2021-10-17 at 5 30 55 PM" src="https://user-images.githubusercontent.com/86274124/137646761-58acd3a4-349d-42d6-979d-9eeace34201f.png">
+
+<img width="383" alt="Screen Shot 2021-10-17 at 5 31 08 PM" src="https://user-images.githubusercontent.com/86274124/137646762-4cac2094-24b8-443c-9ce1-dfb3504863be.png">
+
+<img width="380" alt="Screen Shot 2021-10-17 at 5 31 21 PM" src="https://user-images.githubusercontent.com/86274124/137646765-561d0cce-3741-4b4b-ba1c-bad7a876452a.png">
