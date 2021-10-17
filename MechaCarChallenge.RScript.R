@@ -3,9 +3,6 @@ MechaCar_df = read.csv("MechaCar_mpg.csv", header=T,
                    colClasses = c("numeric", "numeric", "numeric", 
                                   "numeric", "numeric", "numeric"))
 # all colums are now numeric in value
-final.fit1=lm(vehicle_length~vehicle_weight+spoiler_angle+ground_clearance+AWD+mpg,
-            data=MechaCar_df)
-summary(final.fit1)
 
 # Final Code for Deliverable 1
 final.fit1=lm(vehicle_length~vehicle_weight+spoiler_angle+ground_clearance+AWD+mpg,
